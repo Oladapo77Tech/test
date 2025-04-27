@@ -56,12 +56,7 @@ export default function UserTable({ users }: { users: User[] }) {
           <thead>
             <tr className="bg-gray-100">
               <th className="p-3 border-b">
-                <input 
-                  type="checkbox" 
-                  checked={selectAll}
-                  onChange={handleSelectAll}
-                  className="w-4 h-4"
-                />
+                <input  type="checkbox"  checked={selectAll} onChange={handleSelectAll} className="w-4 h-4" />
               </th>
               <th className="p-3 text-left border-b">ID</th>
               <th className="p-3 text-left border-b">Name</th>
