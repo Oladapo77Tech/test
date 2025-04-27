@@ -1,5 +1,5 @@
 "use client"
-import { User } from '@/types';
+import { User } from '@/types/table';
 import { useState } from 'react';
 
 export default function UserTable({ users }: { users: User[] }) {
