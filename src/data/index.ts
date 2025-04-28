@@ -1,10 +1,6 @@
-// export const users: User[]  = [
-//   { id: 1, name: 'John Doe', email: 'john@example.com', role: 'Admin' },
-//   { id: 2, name: 'Jane Smith', email: 'jane@example.com', role: 'User' },
-//   { id: 3, name: 'Bob Johnson', email: 'bob@example.com', role: 'Editor' },
-// ];
 
 import { User } from "@/types/table";
+import image1 from "../../public/images/Oladapo AYODEJI 1.jpg"
 
 export const users: User[] = [
   {
@@ -15,7 +11,7 @@ export const users: User[] = [
     role: 'Admin',
     department: 'IT',
     status: 'active',
-    profileImage: '/api/placeholder/40/40'
+    profileImage: image1.src
   },
   {
     id: 2,
@@ -25,7 +21,7 @@ export const users: User[] = [
     role: 'Manager',
     department: 'HR',
     status: 'active',
-    profileImage: '/api/placeholder/40/40'
+    profileImage: image1.src
   },
   {
     id: 3,
@@ -35,7 +31,7 @@ export const users: User[] = [
     role: 'Editor',
     department: 'Marketing',
     status: 'inactive',
-    profileImage: '/api/placeholder/40/40'
+    profileImage: image1.src
   },
   {
     id: 4,
@@ -45,7 +41,7 @@ export const users: User[] = [
     role: 'User',
     department: 'Finance',
     status: 'new',
-    profileImage: '/api/placeholder/40/40'
+    profileImage: image1.src
   },
   {
     id: 5,
@@ -55,7 +51,7 @@ export const users: User[] = [
     role: 'User',
     department: 'Sales',
     status: 'locked',
-    profileImage: '/api/placeholder/40/40'
+    profileImage: image1.src
   },
   {
     id: 6,
@@ -65,7 +61,7 @@ export const users: User[] = [
     role: 'Admin',
     department: 'IT',
     status: 'active',
-    profileImage: '/api/placeholder/40/40'
+    profileImage: image1.src
   },
   {
     id: 7,
@@ -75,7 +71,7 @@ export const users: User[] = [
     role: 'Manager',
     department: 'Operations',
     status: 'active',
-    profileImage: '/api/placeholder/40/40'
+    profileImage: image1.src
   },
   {
     id: 8,
@@ -85,6 +81,6 @@ export const users: User[] = [
     role: 'Editor',
     department: 'Content',
     status: 'new',
-    profileImage: '/api/placeholder/40/40'
+    profileImage: image1.src
   },
 ];
